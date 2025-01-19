@@ -22,9 +22,8 @@ const ProjectsList = () => {
         }
 
         fetchData()
-    }, [projects])
+    }, [])
 
-    console.log(projects)
 
     return (
         <div className="projects-section">
@@ -34,6 +33,7 @@ const ProjectsList = () => {
             </div>
             <div className='projects-grid'>
                 {
+                    projects ?
                     projects.map((project) => (
                         <div className='project-card d-flex jc-center al-center fd-column' key={project.id}>
                             <div 
@@ -44,7 +44,7 @@ const ProjectsList = () => {
                             <p>{project.subtitle}</p>
                             <img src={LikedFilled} height="20px"/>
                         </div>
-                    ))
+                    )) : null
                 }
                 
             </div>
