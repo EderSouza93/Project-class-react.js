@@ -9,29 +9,22 @@ import Like from '../../assets/like.svg'
 import { getApiData } from '../../services/apiServices'
 
 const ProjectsList = () => {
-    const [projects, setProjects] = useState([])
-    const [isLoading, setIsLoading] = useState(true)
+    const [projects, setProjects] = useState()
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                setIsLoading(true)
                 const projectsResponse = await getApiData('projects')
                 setProjects(projectsResponse)
-            } catch (error){
-                console.error('Error fetching projects: ', error)
+            } catch {
                 setProjects([])
-            } finally {
-                setIsLoading(false)
             }
         }
 
         fetchData()
-    }, [])
+    }, [projects])
 
-    if (isLoading) {
-        return <div>Loading...</div>
-    }
+    console.log(projects)
 
     return (
         <div className="projects-section">
