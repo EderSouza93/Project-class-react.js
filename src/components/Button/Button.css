@@ -48,3 +48,12 @@
     color:#666;
     pointer-events: none;
 }
+
+/* UNSTYLED */
+.button.unstyled, .button.unstyled>:hover {
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    padding: 0;
+    background: transparent;
+}
