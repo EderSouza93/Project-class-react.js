@@ -3,6 +3,8 @@
 ## 📋 Descrição do Projeto
 Este projeto é um site/portfólio desenvolvido com React e Vite, criado durante o curso de React com JavaScript da DNC. O site possui páginas para Home, About, Projects e Contact, com integração de APIs e recursos de navegação.
 
+🔗 Demo do Projeto: [Clique aqui para ver o site](https://project-class-react-js.vercel.app/)
+
 ## 🛠️ Tecnologias Utilizadas
 - React.js
 - Vite
@@ -136,8 +138,6 @@ pnpm dev
 4. Faça push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
-Este projeto está sob a licença [SUA-LICENÇA]. Veja o arquivo LICENSE para mais detalhes.
 
 ## 👥 Autor
 - Projeto desenvolvido como parte do curso de React com JavaScript da DNC
