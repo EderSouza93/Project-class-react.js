@@ -1,8 +1,23 @@
-# React + Vite
+# DNC-ARQ-EDER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descrição do Projeto
+Este projeto foi desenvolvido durante os estudos do curso de React com JavaScript da DNC. É um site/portfólio construído com React e Vite, demonstrando a aplicação prática dos conceitos aprendidos durante o curso.
 
-Currently, two official plugins are available:
+🔗 **Demo do Projeto:** [Clique aqui para ver o site](https://project-class-react-js.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Context API
+
+[resto da documentação permanece igual até a seção de autor]
+
+## 👥 Autor
+- Projeto desenvolvido como parte do curso de React com JavaScript da DNC
+- Eder Souza
+
+## 📞 Contato
+- [Email](mailto:eder.dev93@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/ederaldo-souza-ribeiro-b518b773/)
